@@ -1,0 +1,306 @@
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.login_body {
+  background-image: url("../images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.selected {
+  color:#f74553 !important;
+}
+
+header {
+  height: 60px;
+  background-color: #323232;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.top_menu {
+  width: 100%;
+  text-align:  center;
+  margin:  0 auto;
+  /* padding: 20px; */
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  opacity:  0.8;
+}
+
+
+.top_menu a {
+  width: 25%;
+  display:  block;
+  float:  left;
+  text-decoration:  none;
+  color: #333333;
+  padding: 15px 0px;
+  transition: background-color 500ms ease;
+}
+
+.top_menu a:hover {
+  background: #4f4f4f;
+  color: #fcfcfc;
+}
+
+main {
+  margin-top: 150px;
+}
+
+nav {
+  width: 15%;
+  padding: 0px 20px;
+  float:  left;
+}
+
+
+nav a {
+  text-decoration:  none;
+  color: #4f504e;
+  display: block;
+  padding: 10px 10px;
+  width: 100%;
+  transition: background-color 500ms ease;
+}
+
+nav a:hover {background: #ededed;color:  #4f504e;}
+
+nav h2 {
+  color: #4f504e;
+  padding: 10px 10px;
+}
+
+
+.top_article {
+  width: 80%;
+  float:  left;
+  border-left: solid 1px #c5c5c4;
+}
+
+.top_article h2 {
+  color:  #4f504e;
+  padding-left: 20px;
+}
+
+.item-info {
+  font-size: 14px;
+  text-align: left;
+}
+
+.square_btn {
+  display: block;
+  clear: left;
+  padding: 0.5em 1em;
+  border-bottom: solid 4px #6b6b6b;
+  border-radius: 3px;
+}
+
+.square_btn:active {
+  -webkit-appearance: translateY(4px);
+  -webkit-appearance: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+.success {
+  text-align:  center;
+  font-style: italic;
+  color:  #20cefe;
+}
+
+.failure {
+  text-align:  center;
+  font-style: italic;
+  color:  #f74553;
+}
+
+.decision-btn {
+  width: 300px !important;
+  display:  block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #cfcfcf;
+  transition: background-color 500ms ease;
+}
+
+.decision-btn:hover {
+  background: #e0e0e0;
+}
+
+.cart_item_category {
+  display: inline-block;
+  width:  30%;
+  margin-top: 9%;
+  text-align:  center;
+}
+
+.cart-item-del input {
+  padding: 5px;
+  width: 60%;
+}
+
+.regist_item {
+  width: 40%;
+  margin:  0 auto;
+  padding:  20px;
+  background:  #e6e6e6;
+  border: solid 1px #c5c5c4;
+}
+
+.regist_item h2 {
+  text-align:  center;
+  font-size:  18px;
+  padding: 10px;
+}
+
+.regist_item div {
+  padding: 10px 5px;
+  margin-left: 30%;
+}
+
+.submit {
+  margin: 0 auto !important;
+  width: 200px;
+}
+
+.submit input {
+  display:  inline-block;
+  margin:  0 auto;
+  width: 90%;
+  padding: 8px;
+  font-size:  16px;
+  font-style:  italic;
+  transition: background-color 500ms ease;
+}
+
+.submit input:hover {background: #bdbdbd;}
+
+
+.item_list {
+    margin-top: 20px;
+}
+.item_list h2 {
+  text-align:  center;
+  font-size: 20px;
+  font-style:  italic;
+}
+
+.item_table {
+  width: 80%;
+  margin: 20px auto 0px;
+}
+
+.change_category {
+  font-size: 14px;
+  margin-right:  10px;
+}
+
+.category_btn {
+  font-size: 12px;
+}
+
+.delert-btn {
+  font-size:  14px;
+}
+
+.bag_img {
+  width: 70%;
+  display:  block;
+  margin: 40px auto;
+}
+
+.clean {
+  width: 40%;
+  margin: 0 auto;
+  padding:  20px;
+  background: #e6e6e6;
+  border: solid 1px #c5c5c4;
+}
+
+.clean h2 {
+  text-align:  center;
+  font-size:  24px;
+  margin: 10px;
+  font-style:  italic;
+}
+
+.clean ul {
+  padding-left:  25%;
+}
+
+.clean li {
+  margin:  10px 0px;
+  font-style: italic;
+}
+
+.clean a {
+  text-decoration:  none;
+  color: #4fa6fc;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.list_article {
+  width: 80%;
+  float:  left;
+}
+
+.calendar_list {
+  clear: both;
+}
+
+.calendar_list dl{
+    clear: both;
+}
+
+.calendar_list dt {
+    margin-left:  40px;
+}
+
+.calendar_list dd {
+    margin-bottom: 30px;
+}
+
+.calendar_list h2 {margin-bottom:  10px;}
+
+.message h2 {
+    color:  #ffffff;
+}
+
+.register div {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.register input {
+  padding:  10px;
+  margin-top:  10px;
+  font-size: 16px;
+}
+
+article.orgenize_article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.orgenize_article h2 {
+    text-align: center;
+    margin-top:  30px;
+    font-size:  24px;
+    font-style:  italic;
+    color: red;
+}
